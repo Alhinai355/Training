@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxabnsnfns00001000001" textdirection="rtl" textengine="DirectWrite" device="true" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npnxnanbnsnfns00000000001" textdirection="rtl" textengine="DirectWrite" device="true" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
   <layouts>
-    <layout name="npnxnanbsnfns00001000001" font="Open Sans" controllayout="npnxnanbsnfns00001000001" colorscheme="pxabnsnfns00001000001" string_table="pxabnsnfns00001000001" />
-    <layout name="pxabnsnfns00001000001" font="Open Sans" controllayout="pxabnsnfns00001000001" colorscheme="pxabnsnfns00001000001" string_table="pxabnsnfns00001000001" />
-    <layout name="npxnabnsnfns00001000001" font="Open Sans" controllayout="npxnabnsnfns00001000001" colorscheme="pxabnsnfns00001000001" string_table="pxabnsnfns00001000001" />
-    <layout name="npnxnanbnsnfns00001000001" font="Open Sans" controllayout="npnxnanbnsnfns00001000001" colorscheme="pxabnsnfns00001000001" string_table="pxabnsnfns00001000001" />
-    <layout name="pxabnsnfns00001000000" font="Open Sans" controllayout="pxabnsnfns00001000000" colorscheme="pxabnsnfns00001000001" string_table="pxabnsnfns00001000001" />
+    <layout name="npnxnanbsnfns00000000001" font="Open Sans" controllayout="npnxnanbsnfns00000000001" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
+    <layout name="pxabnsnfns00000000001" font="Open Sans" controllayout="pxabnsnfns00000000001" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
+    <layout name="npxnabnsnfns00000000001" font="Open Sans" controllayout="npxnabnsnfns00000000001" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
+    <layout name="npnxnanbnsnfns00000000001" font="Open Sans" controllayout="npnxnanbnsnfns00000000001" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
+    <layout name="pxabnsnfns00000000000" font="Open Sans" controllayout="pxabnsnfns00000000000" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
   </layouts>
   <control_options>
     <optiongroups>
@@ -13,13 +13,13 @@
         <options>
           <option name="title_enabled" value="true">
             <options>
-              <option name="title_text" value="برنامج التدريب الالكتروني" />
+              <option name="title_text" value="برنامج التدريب الالكتروني القائم على الفيديو التفاعلي" />
             </options>
           </option>
           <option name="logo_enabled" value="false">
             <options />
           </option>
-          <option name="sidebar_enabled" value="true">
+          <option name="sidebar_enabled" value="false">
             <options>
               <option name="sidebarpos" value="left" />
               <option name="closed" value="false" />
@@ -28,7 +28,7 @@
           <optionlist name="tabs">
             <listitems>
               <listitem name="resources" value="false" group="linkright" />
-              <listitem name="outline" value="true" group="sidebar" />
+              <listitem name="outline" value="false" group="sidebar" />
               <listitem name="glossary" value="false" group="sidebar" />
               <listitem name="transcript" value="false" group="sidebar" />
             </listitems>
@@ -48,10 +48,10 @@
       </optiongroup>
       <optiongroup name="menuoptions">
         <options>
-          <option name="flow" value="free" />
+          <option name="flow" value="locked" />
           <option name="wraplistitems" value="false" />
-          <option name="tooltips" value="true" />
-          <option name="autocollapse" value="true" />
+          <option name="tooltips" value="false" />
+          <option name="autocollapse" value="false" />
           <option name="autonumber" value="false" />
           <option name="enableresultsicons" value="true" />
         </options>
@@ -86,7 +86,7 @@
     </optiongroups>
   </control_options>
   <control_layouts>
-    <control_layout name="npnxnanbsnfns00001000001">
+    <control_layout name="npnxnanbsnfns00000000001">
       <control name="volume" enabled="false" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
@@ -102,14 +102,14 @@
       <control name="resources" enabled="false" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
-      <control name="outline" enabled="true">
+      <control name="outline" enabled="false">
         <controls>
           <control name="search" enabled="false" />
         </controls>
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns00001000001">
+    <control_layout name="pxabnsnfns00000000001">
       <control name="volume" enabled="false" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
@@ -125,14 +125,14 @@
       <control name="resources" enabled="false" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
-      <control name="outline" enabled="true">
+      <control name="outline" enabled="false">
         <controls>
           <control name="search" enabled="false" />
         </controls>
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npxnabnsnfns00001000001">
+    <control_layout name="npxnabnsnfns00000000001">
       <control name="volume" enabled="false" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
@@ -148,14 +148,14 @@
       <control name="resources" enabled="false" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
-      <control name="outline" enabled="true">
+      <control name="outline" enabled="false">
         <controls>
           <control name="search" enabled="false" />
         </controls>
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npnxnanbnsnfns00001000001">
+    <control_layout name="npnxnanbnsnfns00000000001">
       <control name="volume" enabled="false" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
@@ -171,14 +171,14 @@
       <control name="resources" enabled="false" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
-      <control name="outline" enabled="true">
+      <control name="outline" enabled="false">
         <controls>
           <control name="search" enabled="false" />
         </controls>
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns00001000000">
+    <control_layout name="pxabnsnfns00000000000">
       <control name="volume" enabled="false" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
@@ -194,7 +194,7 @@
       <control name="resources" enabled="false" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
-      <control name="outline" enabled="true">
+      <control name="outline" enabled="false">
         <controls>
           <control name="search" enabled="false" />
         </controls>
@@ -203,7 +203,7 @@
     </control_layout>
   </control_layouts>
   <colorschemes>
-    <colorscheme name="pxabnsnfns00001000001">
+    <colorscheme name="npnxnanbnsnfns00000000001">
       <color_group name="accessibility">
         <group_colors>
           <color name="focus_rect">
@@ -1120,7 +1120,7 @@
     </colorscheme>
   </colorschemes>
   <string_tables>
-    <string_table name="pxabnsnfns00001000001">
+    <string_table name="npnxnanbnsnfns00000000001">
       <string id="three_image_progress_audio">التقدم</string>
       <string id="three_image_audio">صوت</string>
       <string id="three_image_camera_down">تحركت الكاميرا للأسفل</string>
@@ -1299,19 +1299,20 @@
             <slidelink slideid="_player.6qkkQSGSAFx.5enkNrjatrz" displaytext="واجهة الموديولات" expand="false" type="slide" />
             <slidelink slideid="_player.6qkkQSGSAFx.5a8QMIeiVbV" displaytext="دعم ومساعدة" expand="false" type="slide" />
             <slidelink slideid="_player.6qkkQSGSAFx.6dKB3Ythtpc" displaytext="الموديول الأول" expand="false" type="slide" />
+            <slidelink slideid="_player.6qkkQSGSAFx.5ZCIaltfuFs" displaytext="الموديول الأول" expand="false" type="slide" />
             <slidelink slideid="_player.6qkkQSGSAFx.6P7f4xxWybV" displaytext="1- يتطلب الدخول إلى صفحات الأنترنت النقر على:" expand="false" type="slide" />
-            <slidelink slideid="_player.6qkkQSGSAFx.5nwY7fYhhnK" displaytext="2- يُستخدم للبحث عن المعلومات والتطبيقات والبرامج في صفحات&#xA;  الأنترنت:" expand="false" type="slide" />
+            <slidelink slideid="_player.6qkkQSGSAFx.5nwY7fYhhnK" displaytext="2- يُستخدم للبحث عن المعلومات والتطبيقات والبرامج في صفحات   الأنترنت:" expand="false" type="slide" />
             <slidelink slideid="_player.6qkkQSGSAFx.6Ox4DM8Opfm" displaytext="الموديول الأول" expand="false" type="slide" />
             <slidelink slideid="_player.6qkkQSGSAFx.5n95Y0gGMpj" displaytext="الأهداف" expand="false" type="slide" />
             <slidelink slideid="_player.6qkkQSGSAFx.5tDD99lwKyF" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.6qkkQSGSAFx.69pJ6ZYewEo" displaytext="11- يتطلب حقظ المشروع بعد الإنتهاء النقر على أمر&#xA;Save Project من قائمة:" expand="false" type="slide" />
-            <slidelink slideid="_player.6qkkQSGSAFx.69C5ereJNE6" displaytext="10- يتطلب تحريك الصفحات في المشروع للأعلى والأسفل&#xA;النقر على زر الأمرين:" expand="false" type="slide" />
+            <slidelink slideid="_player.6qkkQSGSAFx.69pJ6ZYewEo" displaytext="11- يتطلب حقظ المشروع بعد الإنتهاء النقر على أمر Save Project من قائمة:" expand="false" type="slide" />
+            <slidelink slideid="_player.6qkkQSGSAFx.69C5ereJNE6" displaytext="10- يتطلب تحريك الصفحات في المشروع للأعلى والأسفل النقر على زر الأمرين:" expand="false" type="slide" />
             <slidelink slideid="_player.6qkkQSGSAFx.6JFCPs6wgJH" displaytext="9- يتطلب نسخ صفحة معينة في المشروع النقر على أمر:" expand="false" type="slide" />
             <slidelink slideid="_player.6qkkQSGSAFx.6ETUXCoejGK" displaytext="7- يتطلب جلب ملف بصيغة pdf في برنامج Flip PDF Professional بعد تحديده النقر على زر:" expand="false" type="slide" />
             <slidelink slideid="_player.6qkkQSGSAFx.6psBOMUjM3r" displaytext="8- يتطلب إضافة صفحة جديدة في المشروع النقر على أمر:" expand="false" type="slide" />
             <slidelink slideid="_player.6qkkQSGSAFx.6qbSWb9BQsH" displaytext="5- يتطلب إنشاء مشروع جديد في برنامج Flip PDF Professional النقر على أمر:" expand="false" type="slide" />
             <slidelink slideid="_player.6qkkQSGSAFx.6A8dhzq9SYA" displaytext="6- يتطلب تعديل خصائص المشروع لتحديد عدد الصفحات النقر على أمر:" expand="false" type="slide" />
-            <slidelink slideid="_player.6qkkQSGSAFx.5ozeZFC7D9m" displaytext="4- اختر الأيقونة الصحيحة التي تدل على برنامج&#xA; Flip PDF Professional" expand="false" type="slide" />
+            <slidelink slideid="_player.6qkkQSGSAFx.5ozeZFC7D9m" displaytext="4- اختر الأيقونة الصحيحة التي تدل على برنامج  Flip PDF Professional" expand="false" type="slide" />
             <slidelink slideid="_player.6qkkQSGSAFx.6WUNB9rWdgY" displaytext="3- أحد البرامج التالية يستخدم لإنتاج محتوى رقمي" expand="false" type="slide" />
           </links>
         </slidelink>
@@ -1362,43 +1363,225 @@
             <slidelink slideid="_player.5koFCobEC59.5yVdHYPm8Ej" displaytext="Hotspot" expand="false" type="slide" />
             <slidelink slideid="_player.5koFCobEC59.67QhfydF7h5" displaytext="Hotspot" expand="false" type="slide" />
             <slidelink slideid="_player.5koFCobEC59.6aCDw7Q32W2" displaytext="Hotspot" expand="false" type="slide" />
+            <slidelink slideid="_player.5koFCobEC59.5ejUlP6kZDH" displaytext="الموديول الأول" expand="false" type="slide" />
             <slidelink slideid="_player.5koFCobEC59.5fKEp4E4gxy" displaytext="1- يتطلب الدخول إلى صفحات الأنترنت النقر على:" expand="false" type="slide" />
-            <slidelink slideid="_player.5koFCobEC59.6M5zWPhjw0Y" displaytext="2- يُستخدم للبحث عن المعلومات والتطبيقات والبرامج في صفحات&#xA;  الأنترنت:" expand="false" type="slide" />
+            <slidelink slideid="_player.5koFCobEC59.6M5zWPhjw0Y" displaytext="2- يُستخدم للبحث عن المعلومات والتطبيقات والبرامج في صفحات   الأنترنت:" expand="false" type="slide" />
             <slidelink slideid="_player.5koFCobEC59.6PLr5IyhpWG" displaytext="3- أحد البرامج التالية يستخدم لإنتاج محتوى رقمي" expand="false" type="slide" />
-            <slidelink slideid="_player.5koFCobEC59.6JEIcpx0yZo" displaytext="4- اختر الأيقونة الصحيحة التي تدل على برنامج&#xA; Flip PDF Professional" expand="false" type="slide" />
+            <slidelink slideid="_player.5koFCobEC59.6JEIcpx0yZo" displaytext="4- اختر الأيقونة الصحيحة التي تدل على برنامج  Flip PDF Professional" expand="false" type="slide" />
             <slidelink slideid="_player.5koFCobEC59.6KorF8crhjk" displaytext="5- يتطلب إنشاء مشروع جديد في برنامج Flip PDF Professional النقر على أمر:" expand="false" type="slide" />
             <slidelink slideid="_player.5koFCobEC59.5XgfGfjl93I" displaytext="6- يتطلب تعديل خصائص المشروع لتحديد عدد الصفحات النقر على أمر:" expand="false" type="slide" />
             <slidelink slideid="_player.5koFCobEC59.6KOVtPIa2TV" displaytext="7- يتطلب جلب ملف بصيغة pdf في برنامج Flip PDF Professional بعد تحديده النقر على زر:" expand="false" type="slide" />
             <slidelink slideid="_player.5koFCobEC59.66m9QDTYn05" displaytext="8- يتطلب إضافة صفحة جديدة في المشروع النقر على أمر:" expand="false" type="slide" />
             <slidelink slideid="_player.5koFCobEC59.69qqDANWyUo" displaytext="9- يتطلب نسخ صفحة معينة في المشروع النقر على أمر:" expand="false" type="slide" />
-            <slidelink slideid="_player.5koFCobEC59.5orncO0ZcCz" displaytext="10- يتطلب تحريك الصفحات في المشروع للأعلى والأسفل&#xA;النقر على زر الأمرين:" expand="false" type="slide" />
-            <slidelink slideid="_player.5koFCobEC59.6WwIoDfd58H" displaytext="11- يتطلب حقظ المشروع بعد الإنتهاء النقر على أمر&#xA;Save Project من قائمة:" expand="false" type="slide" />
+            <slidelink slideid="_player.5koFCobEC59.5orncO0ZcCz" displaytext="10- يتطلب تحريك الصفحات في المشروع للأعلى والأسفل النقر على زر الأمرين:" expand="false" type="slide" />
+            <slidelink slideid="_player.5koFCobEC59.6WwIoDfd58H" displaytext="11- يتطلب حقظ المشروع بعد الإنتهاء النقر على أمر Save Project من قائمة:" expand="false" type="slide" />
           </links>
         </slidelink>
         <slidelink slideid="_player.5t4cTk5KggO" displaytext="الموديول الثاني" expand="true" type="slide">
           <links>
             <slidelink slideid="_player.5t4cTk5KggO.5ZgVkQ86Bnb" displaytext="الموديول الثاني" expand="false" type="slide" />
+            <slidelink slideid="_player.5t4cTk5KggO.5i0tG6sd0mz" displaytext="الموديول الثاني" expand="false" type="slide" />
             <slidelink slideid="_player.5t4cTk5KggO.6PVQoabdWbT" displaytext="الأهداف" expand="false" type="slide" />
+            <slidelink slideid="_player.5t4cTk5KggO.65Nm0r4Nwb5" displaytext="النشاط الأول للموديول الثاني" expand="false" type="slide" />
+            <slidelink slideid="_player.5t4cTk5KggO.62znYOtrv7W" displaytext="النشاط الثاني للموديول الثاني" expand="false" type="slide" />
             <slidelink slideid="_player.5t4cTk5KggO.6T6YmEzOW6k" displaytext="الأهداف" expand="false" type="slide" />
+            <slidelink slideid="_player.5t4cTk5KggO.6NuXq8oYe8H" displaytext="اللقاء الأول من الموديول الثاني" expand="false" type="slide" />
+            <slidelink slideid="_player.5t4cTk5KggO.5lse68Bdogn" displaytext="اللقاء الثاني من الموديول الثاني" expand="false" type="slide" />
+            <slidelink slideid="_player.5t4cTk5KggO.5jWHpYPLGFH" displaytext="1- للدخول إلى وضع تعديل الصفحات أنقر على أمر:" expand="false" type="slide" />
+            <slidelink slideid="_player.5t4cTk5KggO.6DNJ3wWZcIC" displaytext="2- لإدراج مقطع فيديو أنقر على أمر:" expand="false" type="slide" />
+            <slidelink slideid="_player.5t4cTk5KggO.5ZyXicWvB4J" displaytext="3- لإدراج مقطع فيديو من اليوتيوب أنقر على أمر:" expand="false" type="slide" />
+            <slidelink slideid="_player.5t4cTk5KggO.6H93E0E4foo" displaytext="4- لإدراج مقطع صوتي أنقر على أمر:" expand="false" type="slide" />
+            <slidelink slideid="_player.5t4cTk5KggO.5pynY9n6iDW" displaytext="5- لإدراج نص أنقر على أمر:" expand="false" type="slide" />
+            <slidelink slideid="_player.5t4cTk5KggO.6MZqFrx4OM3" displaytext="6- لإدراج شكل أنقر على أمر:" expand="false" type="slide" />
+            <slidelink slideid="_player.5t4cTk5KggO.5WRFNPXvyXc" displaytext="7- لإدراج صورة أنقر على أمر:" expand="false" type="slide" />
+            <slidelink slideid="_player.5t4cTk5KggO.6Fv2d8zmeOA" displaytext="7- لإدراج عارض صور أنقر على أمر:" expand="false" type="slide" />
           </links>
         </slidelink>
         <slidelink slideid="_player.5gdDS4ns6Lp" displaytext="الموديول الثالث" expand="true" type="slide">
           <links>
             <slidelink slideid="_player.5gdDS4ns6Lp.5ZtvGlnQDp2" displaytext="الموديول الثالث" expand="false" type="slide" />
+            <slidelink slideid="_player.5gdDS4ns6Lp.6YlsbMljDS6" displaytext="الموديول الثالث" expand="false" type="slide" />
+            <slidelink slideid="_player.5gdDS4ns6Lp.6SV2ZRnUNqH" displaytext="1- يتطلب الدخول إلى وضع تعديل الصفحات الذهاب إلى أمر:" expand="false" type="slide" />
+            <slidelink slideid="_player.5gdDS4ns6Lp.6036EOM7Ovk" displaytext="2- لتحديد صفحة معينة في المشروع نقوم بـــ:" expand="false" type="slide" />
+            <slidelink slideid="_player.5gdDS4ns6Lp.5YFkzzrzXW2" displaytext="3- يتطلب إدراج زر Button النقر على قائمة:" expand="false" type="slide" />
+            <slidelink slideid="_player.5gdDS4ns6Lp.6Uo0Z3XPQyh" displaytext="4- يتطلب عمل حدث للزر Button النقر على أمر:" expand="false" type="slide" />
+            <slidelink slideid="_player.5gdDS4ns6Lp.5b0x6Ox6UVO" displaytext="5- يتطلب عمل إرتباط تشعبي داخلي في صفحات المشروع إختيار الحدث:" expand="false" type="slide" />
+            <slidelink slideid="_player.5gdDS4ns6Lp.6X1Y36Qciks" displaytext="6- يتطلب عمل إرتباط تشعبي خارجي مع صفحات المشروع إختيار الحدث:" expand="false" type="slide" />
+            <slidelink slideid="_player.5gdDS4ns6Lp.5slVDkcEMzK" displaytext="7- يتطلب عمل نشر للمشروع النقر على أمر:" expand="false" type="slide" />
+            <slidelink slideid="_player.5gdDS4ns6Lp.6LN3ZlBg7nk" displaytext="8- يتطلب تصدير للمشروع بعد تحديد صيغته النقر على أمر:" expand="false" type="slide" />
             <slidelink slideid="_player.5gdDS4ns6Lp.6OWzsDptOnS" displaytext="الأهداف" expand="false" type="slide" />
+            <slidelink slideid="_player.5gdDS4ns6Lp.6J6gBR2sIyx" displaytext="فيديو الموديول الثالث" expand="false" type="slide" />
           </links>
         </slidelink>
         <slidelink slideid="_player.6dJGY0KPO75" displaytext="الموديول الرابع" expand="true" type="slide">
           <links>
             <slidelink slideid="_player.6dJGY0KPO75.6Gr77oTBYSb" displaytext="الموديول الرابع" expand="false" type="slide" />
+            <slidelink slideid="_player.6dJGY0KPO75.5cb1XMeIwlQ" displaytext="الموديول الرابع" expand="false" type="slide" />
+            <slidelink slideid="_player.6dJGY0KPO75.6AJue0Z3sEw" displaytext="1- يتطلب تنصيب برنامج Wonder share QuizCreator:" expand="false" type="slide" />
+            <slidelink slideid="_player.6dJGY0KPO75.5zMjc4UM60K" displaytext="2- لإنشاء ملف إختبار جديد في برنامج Wonder share QuizCreator أنقر على أمر:" expand="false" type="slide" />
+            <slidelink slideid="_player.6dJGY0KPO75.60UnSE6RlWz" displaytext="3- لإضافة أسئلة من نوع الصواب والخطأ أختر أمر:" expand="false" type="slide" />
+            <slidelink slideid="_player.6dJGY0KPO75.6VhCM79nyqS" displaytext="4- لإضافة أسئلة من نوع خيار من متعدد أختر أمر:" expand="false" type="slide" />
+            <slidelink slideid="_player.6dJGY0KPO75.6QVjyZd5OYL" displaytext="5- لإضافة أسئلة من نوع إجابات متعددة أختر أمر:" expand="false" type="slide" />
+            <slidelink slideid="_player.6dJGY0KPO75.6nzOT6aCKrs" displaytext="6- لإضافة أسئلة من نوع إملأ الفراغات أختر أمر:" expand="false" type="slide" />
+            <slidelink slideid="_player.6dJGY0KPO75.6DWDsay5NtM" displaytext="7- لإضافة صورة في السؤال أختر أمر:" expand="false" type="slide" />
             <slidelink slideid="_player.6dJGY0KPO75.68CYyUPWly0" displaytext="الأهداف" expand="false" type="slide" />
+            <slidelink slideid="_player.6dJGY0KPO75.5W661ajhw1P" displaytext="فيديو اللقاء الأول من الموديول الرابع" expand="false" type="slide" />
             <slidelink slideid="_player.6dJGY0KPO75.6FqoNgh66DY" displaytext="الأهداف" expand="false" type="slide" />
+            <slidelink slideid="_player.6dJGY0KPO75.6F4ntRz8tYG" displaytext="فيديو اللقاء الثاني من الموديول الرابع" expand="false" type="slide" />
           </links>
         </slidelink>
         <slidelink slideid="_player.5wKIj5ngBWd" displaytext="الموديول الخامس" expand="true" type="slide">
           <links>
             <slidelink slideid="_player.5wKIj5ngBWd.5loMbOEVroI" displaytext="الموديول الخامس" expand="false" type="slide" />
+            <slidelink slideid="_player.5wKIj5ngBWd.5f3ZDKuqfst" displaytext="الموديول الخامس" expand="false" type="slide" />
+            <slidelink slideid="_player.5wKIj5ngBWd.6IkzcsW2DXX" displaytext="1- لعمل معاينة لمف الأختبار في برنامج Wonder share QuizCreator  أختر أمر:" expand="false" type="slide" />
+            <slidelink slideid="_player.5wKIj5ngBWd.6IXsMmd0Lya" displaytext="2 – لحفظ ملف الأختبار بعد الأنتهاء ننقر على الأيقونة:" expand="false" type="slide" />
+            <slidelink slideid="_player.5wKIj5ngBWd.6ccPhJdSMhQ" displaytext="3- لإختيار صيغة النشر المناسبة لمف الأختبار أختر أمر:" expand="false" type="slide" />
+            <slidelink slideid="_player.5wKIj5ngBWd.6bJxz0sN4fN" displaytext="4- لنشر ملف الأختبار بصيغة ملف تنفيذي أختر أمر:" expand="false" type="slide" />
             <slidelink slideid="_player.5wKIj5ngBWd.6hsbCts6IMY" displaytext="الأهداف" expand="false" type="slide" />
+            <slidelink slideid="_player.5wKIj5ngBWd.6Brbko12FFK" displaytext="فيديو الموديول الخامس" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.65oKp7SOaT7" displaytext="نشاط(2-1) الموديول الثاني" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.65oKp7SOaT7.6Cu9DF4aE5C" displaytext="Hotspot" expand="false" type="slide" />
+            <slidelink slideid="_player.65oKp7SOaT7.6K3tqRP9xiI" displaytext="Hotspot" expand="false" type="slide" />
+            <slidelink slideid="_player.65oKp7SOaT7.5mZAhkjPftJ" displaytext="Hotspot" expand="false" type="slide" />
+            <slidelink slideid="_player.65oKp7SOaT7.617wfTO2KCq" displaytext="Hotspot" expand="false" type="slide" />
+            <slidelink slideid="_player.65oKp7SOaT7.5r6A522DpCd" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.65oKp7SOaT7.689yd2wcJGX" displaytext="Hotspot" expand="false" type="slide" />
+            <slidelink slideid="_player.65oKp7SOaT7.6qFFMIKJ1fd" displaytext="Hotspot" expand="false" type="slide" />
+            <slidelink slideid="_player.65oKp7SOaT7.6DOiaQOpIw4" displaytext="Hotspot" expand="false" type="slide" />
+            <slidelink slideid="_player.65oKp7SOaT7.6DwyqQYWg9J" displaytext="Hotspot" expand="false" type="slide" />
+            <slidelink slideid="_player.65oKp7SOaT7.6gu1c4dRBpL" displaytext="Hotspot" expand="false" type="slide" />
+            <slidelink slideid="_player.65oKp7SOaT7.6b8pP5lLhso" displaytext="Hotspot" expand="false" type="slide" />
+            <slidelink slideid="_player.65oKp7SOaT7.6iK0YhKjBx7" displaytext="Hotspot" expand="false" type="slide" />
+            <slidelink slideid="_player.65oKp7SOaT7.6UohbIUCDwC" displaytext="Hotspot" expand="false" type="slide" />
+            <slidelink slideid="_player.65oKp7SOaT7.6UP3Fy4YmYh" displaytext="Hotspot" expand="false" type="slide" />
+            <slidelink slideid="_player.65oKp7SOaT7.6V5hyPx3J1i" displaytext="Hotspot" expand="false" type="slide" />
+            <slidelink slideid="_player.65oKp7SOaT7.6cQ1Br1zNJy" displaytext="Hotspot" expand="false" type="slide" />
+            <slidelink slideid="_player.65oKp7SOaT7.6OevmbHSmyI" displaytext="Hotspot" expand="false" type="slide" />
+            <slidelink slideid="_player.65oKp7SOaT7.6YfZuvRGNu9" displaytext="Hotspot" expand="false" type="slide" />
+            <slidelink slideid="_player.65oKp7SOaT7.62DehmuVbCV" displaytext="Hotspot" expand="false" type="slide" />
+            <slidelink slideid="_player.65oKp7SOaT7.5eihpe6LQYP" displaytext="Hotspot" expand="false" type="slide" />
+            <slidelink slideid="_player.65oKp7SOaT7.672giXlvow8" displaytext="Hotspot" expand="false" type="slide" />
+            <slidelink slideid="_player.65oKp7SOaT7.6g7ecnWngiu" displaytext="Hotspot" expand="false" type="slide" />
+            <slidelink slideid="_player.65oKp7SOaT7.6kDjLvkAYWM" displaytext="Hotspot" expand="false" type="slide" />
+            <slidelink slideid="_player.65oKp7SOaT7.5nRugSOdFYk" displaytext="Hotspot" expand="false" type="slide" />
+            <slidelink slideid="_player.65oKp7SOaT7.6SmWuiPYPUK" displaytext="Hotspot" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.63XVbD6mFzD" displaytext="النشاط(2-2) الموديول الثاني" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.63XVbD6mFzD.5ZD6IM3bztD" displaytext="Hotspot" expand="false" type="slide" />
+            <slidelink slideid="_player.63XVbD6mFzD.5qppDpsgmvy" displaytext="Hotspot" expand="false" type="slide" />
+            <slidelink slideid="_player.63XVbD6mFzD.66mw5Jv87uQ" displaytext="Hotspot" expand="false" type="slide" />
+            <slidelink slideid="_player.63XVbD6mFzD.5ixlCyn7CoH" displaytext="Hotspot" expand="false" type="slide" />
+            <slidelink slideid="_player.63XVbD6mFzD.6GP7vo2iSNe" displaytext="Hotspot" expand="false" type="slide" />
+            <slidelink slideid="_player.63XVbD6mFzD.6MjNeu7M9uM" displaytext="Hotspot" expand="false" type="slide" />
+            <slidelink slideid="_player.63XVbD6mFzD.643ckY7rAeV" displaytext="Hotspot" expand="false" type="slide" />
+            <slidelink slideid="_player.63XVbD6mFzD.6SxbM5MRgWZ" displaytext="Hotspot" expand="false" type="slide" />
+            <slidelink slideid="_player.63XVbD6mFzD.60vHNAc6yz4" displaytext="Hotspot" expand="false" type="slide" />
+            <slidelink slideid="_player.63XVbD6mFzD.6ZMBqeBck5i" displaytext="Hotspot" expand="false" type="slide" />
+            <slidelink slideid="_player.63XVbD6mFzD.6KJ8MSmKQRu" displaytext="Hotspot" expand="false" type="slide" />
+            <slidelink slideid="_player.63XVbD6mFzD.5rVHVCBWZnb" displaytext="Hotspot" expand="false" type="slide" />
+            <slidelink slideid="_player.63XVbD6mFzD.6Xe6GiohmAE" displaytext="Hotspot" expand="false" type="slide" />
+            <slidelink slideid="_player.63XVbD6mFzD.5W9pwp8Ozgy" displaytext="Hotspot" expand="false" type="slide" />
+            <slidelink slideid="_player.63XVbD6mFzD.5hAWE5ykgsp" displaytext="Hotspot" expand="false" type="slide" />
+            <slidelink slideid="_player.63XVbD6mFzD.5UiunfJWo1y" displaytext="Hotspot" expand="false" type="slide" />
+            <slidelink slideid="_player.63XVbD6mFzD.6NJwIcSOeUi" displaytext="Hotspot" expand="false" type="slide" />
+            <slidelink slideid="_player.63XVbD6mFzD.6MDuzcpVvnV" displaytext="Hotspot" expand="false" type="slide" />
+            <slidelink slideid="_player.63XVbD6mFzD.5Z2RRxkZbBm" displaytext="Hotspot" expand="false" type="slide" />
+            <slidelink slideid="_player.63XVbD6mFzD.6DoLky7LeDh" displaytext="Hotspot" expand="false" type="slide" />
+            <slidelink slideid="_player.63XVbD6mFzD.5ysL0ocAZPd" displaytext="الموديول الثاني" expand="false" type="slide" />
+            <slidelink slideid="_player.63XVbD6mFzD.6GC2Q259WbH" displaytext="الموديول الثاني" expand="false" type="slide" />
+            <slidelink slideid="_player.63XVbD6mFzD.6QuzQccEcR6" displaytext="1- للدخول إلى وضع تعديل الصفحات أنقر على أمر:" expand="false" type="slide" />
+            <slidelink slideid="_player.63XVbD6mFzD.6nermm2I4jd" displaytext="2- لإدراج مقطع فيديو أنقر على أمر:" expand="false" type="slide" />
+            <slidelink slideid="_player.63XVbD6mFzD.67dp592dSqB" displaytext="3- لإدراج مقطع فيديو من اليوتيوب أنقر على أمر:" expand="false" type="slide" />
+            <slidelink slideid="_player.63XVbD6mFzD.5bImu1zAzOV" displaytext="4- لإدراج مقطع صوتي أنقر على أمر:" expand="false" type="slide" />
+            <slidelink slideid="_player.63XVbD6mFzD.5xUZVkSGw7L" displaytext="5- لإدراج نص أنقر على أمر:" expand="false" type="slide" />
+            <slidelink slideid="_player.63XVbD6mFzD.5Uv2K4facMX" displaytext="6- لإدراج شكل أنقر على أمر:" expand="false" type="slide" />
+            <slidelink slideid="_player.63XVbD6mFzD.6ng1oB7Ihpa" displaytext="7- لإدراج صورة أنقر على أمر:" expand="false" type="slide" />
+            <slidelink slideid="_player.63XVbD6mFzD.6oVQx34Gvtu" displaytext="8- لإدراج عارض صور أنقر على أمر:" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6b5LelmfyvE" displaytext="نشاط اللقاء الأول من الموديول الثالث" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6b5LelmfyvE.5nG2JNbXft6" displaytext="Hotspot" expand="false" type="slide" />
+            <slidelink slideid="_player.6b5LelmfyvE.5YE0KPk0fP3" displaytext="Hotspot" expand="false" type="slide" />
+            <slidelink slideid="_player.6b5LelmfyvE.6OZI9TDcGuc" displaytext="Hotspot" expand="false" type="slide" />
+            <slidelink slideid="_player.6b5LelmfyvE.5yw4unQML2Q" displaytext="Hotspot" expand="false" type="slide" />
+            <slidelink slideid="_player.6b5LelmfyvE.5bnS82E63AO" displaytext="Hotspot" expand="false" type="slide" />
+            <slidelink slideid="_player.6b5LelmfyvE.5ZQOUrEopNX" displaytext="Hotspot" expand="false" type="slide" />
+            <slidelink slideid="_player.6b5LelmfyvE.6bANOpI7UOd" displaytext="Hotspot" expand="false" type="slide" />
+            <slidelink slideid="_player.6b5LelmfyvE.612aOauGLtt" displaytext="Hotspot" expand="false" type="slide" />
+            <slidelink slideid="_player.6b5LelmfyvE.6VymQCW9Xey" displaytext="Hotspot" expand="false" type="slide" />
+            <slidelink slideid="_player.6b5LelmfyvE.6rcRfBpJZZL" displaytext="Hotspot" expand="false" type="slide" />
+            <slidelink slideid="_player.6b5LelmfyvE.6582opvTdxg" displaytext="Hotspot" expand="false" type="slide" />
+            <slidelink slideid="_player.6b5LelmfyvE.5uqvWVnKm25" displaytext="Hotspot" expand="false" type="slide" />
+            <slidelink slideid="_player.6b5LelmfyvE.6SdLnDoM8o2" displaytext="Hotspot" expand="false" type="slide" />
+            <slidelink slideid="_player.6b5LelmfyvE.6bXCuK6XLRq" displaytext="Text Entry" expand="false" type="slide" />
+            <slidelink slideid="_player.6b5LelmfyvE.6BPd39AtwBn" displaytext="Hotspot" expand="false" type="slide" />
+            <slidelink slideid="_player.6b5LelmfyvE.6oYREj9FZ82" displaytext="Hotspot" expand="false" type="slide" />
+            <slidelink slideid="_player.6b5LelmfyvE.6C6b6y8IXOU" displaytext="Hotspot" expand="false" type="slide" />
+            <slidelink slideid="_player.6b5LelmfyvE.6IA73BA3rPf" displaytext="Hotspot" expand="false" type="slide" />
+            <slidelink slideid="_player.6b5LelmfyvE.5YNhUvOfP3P" displaytext="Hotspot" expand="false" type="slide" />
+            <slidelink slideid="_player.6b5LelmfyvE.6bnGKkwmn9O" displaytext="Hotspot" expand="false" type="slide" />
+            <slidelink slideid="_player.6b5LelmfyvE.6WQJ6IetYEG" displaytext="Hotspot" expand="false" type="slide" />
+            <slidelink slideid="_player.6b5LelmfyvE.5o61t8eLO8E" displaytext="Hotspot" expand="false" type="slide" />
+            <slidelink slideid="_player.6b5LelmfyvE.5XOqJXTWpH7" displaytext="الموديول الثالث" expand="false" type="slide" />
+            <slidelink slideid="_player.6b5LelmfyvE.5xEAHTTpbEI" displaytext="1- يتطلب الدخول إلى وضع تعديل الصفحات الذهاب إلى أمر:" expand="false" type="slide" />
+            <slidelink slideid="_player.6b5LelmfyvE.6F5KZzVjGcs" displaytext="2- لتحديد صفحة معينة في المشروع نقوم بـــ:" expand="false" type="slide" />
+            <slidelink slideid="_player.6b5LelmfyvE.5oX1NFEmjgz" displaytext="3- يتطلب إدراج زرِ Button النقر على قائمة:" expand="false" type="slide" />
+            <slidelink slideid="_player.6b5LelmfyvE.5x5yBFXenoc" displaytext="4- يتطلب عمل حدث للزر Button النقر على أمر:" expand="false" type="slide" />
+            <slidelink slideid="_player.6b5LelmfyvE.6OBF23AQD6N" displaytext="5- يتطلب عمل إرتباط تشعبي داخلي في صفحات المشروع إختيار الحدث:" expand="false" type="slide" />
+            <slidelink slideid="_player.6b5LelmfyvE.5awSd3gk6s0" displaytext="6- يتطلب عمل إرتباط تشعبي خارجي مع صفحات المشروع إختيار الحدث:" expand="false" type="slide" />
+            <slidelink slideid="_player.6b5LelmfyvE.6fhnyue4Qgb" displaytext="7- يتطلب عمل نشر للمشروع النقر على أمر:" expand="false" type="slide" />
+            <slidelink slideid="_player.6b5LelmfyvE.6cOwvSDAZaj" displaytext="8- يتطلب تصدير للمشروع بعد تحديد صيغته النقر على أمر:" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6K6ejCM3hFJ" displaytext="نشاط اللقاء الأول من الموديول الرابع" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6K6ejCM3hFJ.5qGt0t4SOVL" displaytext="Hotspot" expand="false" type="slide" />
+            <slidelink slideid="_player.6K6ejCM3hFJ.6A7I2sjWVpm" displaytext="Hotspot" expand="false" type="slide" />
+            <slidelink slideid="_player.6K6ejCM3hFJ.5v7ocadxKPU" displaytext="Hotspot" expand="false" type="slide" />
+            <slidelink slideid="_player.6K6ejCM3hFJ.5nONQUkPMhQ" displaytext="Hotspot" expand="false" type="slide" />
+            <slidelink slideid="_player.6K6ejCM3hFJ.5i7R9ZOmdZe" displaytext="Hotspot" expand="false" type="slide" />
+            <slidelink slideid="_player.6K6ejCM3hFJ.6N7cOV0Hfpt" displaytext="Hotspot" expand="false" type="slide" />
+            <slidelink slideid="_player.6K6ejCM3hFJ.5oVPDo7Rrhe" displaytext="Hotspot" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5lMBQaY2hBe" displaytext="نشاط اللقاء الثاني من الموديول الرابع" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5lMBQaY2hBe.69VM0xlzNNQ" displaytext="Hotspot" expand="false" type="slide" />
+            <slidelink slideid="_player.5lMBQaY2hBe.6JAZ7ZMvYOi" displaytext="Hotspot" expand="false" type="slide" />
+            <slidelink slideid="_player.5lMBQaY2hBe.69EjBWLIou1" displaytext="User Screenshot" expand="false" type="slide" />
+            <slidelink slideid="_player.5lMBQaY2hBe.5hIGf0MkwAM" displaytext="User Screenshot" expand="false" type="slide" />
+            <slidelink slideid="_player.5lMBQaY2hBe.6VPWwiRsh36" displaytext="User Screenshot" expand="false" type="slide" />
+            <slidelink slideid="_player.5lMBQaY2hBe.6JcIeAbCJXN" displaytext="User Screenshot" expand="false" type="slide" />
+            <slidelink slideid="_player.5lMBQaY2hBe.5kQNEEBZhHb" displaytext="الموديول الرابع" expand="false" type="slide" />
+            <slidelink slideid="_player.5lMBQaY2hBe.5xBch2DyutL" displaytext="1- يتطلب تنصيب برنامج Wonder share QuizCreator:" expand="false" type="slide" />
+            <slidelink slideid="_player.5lMBQaY2hBe.6PwYO2OrvUe" displaytext="2- لإنشاء ملف إختبار جديد في برنامج Wonder share QuizCreator أنقر على أمر:" expand="false" type="slide" />
+            <slidelink slideid="_player.5lMBQaY2hBe.63yP4Fm6AiQ" displaytext="3- لإضافة أسئلة من نوع الصواب والخطأ أختر أمر:" expand="false" type="slide" />
+            <slidelink slideid="_player.5lMBQaY2hBe.6bfDBUR7cBf" displaytext="4- لإضافة أسئلة من نوع خيار من متعدد أختر أمر:" expand="false" type="slide" />
+            <slidelink slideid="_player.5lMBQaY2hBe.6bWPNiF7Dbf" displaytext="5- لإضافة أسئلة من نوع إجابات متعددة أختر أمر:" expand="false" type="slide" />
+            <slidelink slideid="_player.5lMBQaY2hBe.6IEIsY5pTTe" displaytext="6- لإضافة أسئلة من نوع إملأ الفراغات أختر أمر:" expand="false" type="slide" />
+            <slidelink slideid="_player.5lMBQaY2hBe.6fdQbDT3xJM" displaytext="7- لإضافة صورة في السؤال أختر أمر:" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5cqPoOlVj7m" displaytext="نشاط الموديول الخامس" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5cqPoOlVj7m.6PLKgkyb4xc" displaytext="User Screenshot" expand="false" type="slide" />
+            <slidelink slideid="_player.5cqPoOlVj7m.5lYJyHVwts2" displaytext="User Screenshot" expand="false" type="slide" />
+            <slidelink slideid="_player.5cqPoOlVj7m.6Dt5n800pHP" displaytext="User Screenshot" expand="false" type="slide" />
+            <slidelink slideid="_player.5cqPoOlVj7m.67bxk5mqRXo" displaytext="User Screenshot" expand="false" type="slide" />
+            <slidelink slideid="_player.5cqPoOlVj7m.6AhABOZ5utu" displaytext="User Screenshot" expand="false" type="slide" />
+            <slidelink slideid="_player.5cqPoOlVj7m.6e70kpizV6m" displaytext="الموديول الخامس" expand="false" type="slide" />
+            <slidelink slideid="_player.5cqPoOlVj7m.66n8Zv1WVUj" displaytext="1- لعمل معاينة لمف الأختبار في برنامج Wonder share QuizCreator  أختر أمر:" expand="false" type="slide" />
+            <slidelink slideid="_player.5cqPoOlVj7m.6PNIgLdHmp0" displaytext="2 – لحفظ ملف الأختبار بعد الأنتهاء ننقر على الأيقونة:" expand="false" type="slide" />
+            <slidelink slideid="_player.5cqPoOlVj7m.6k2Selss96o" displaytext="3- لإختيار صيغة النشر المناسبة لمف الأختبار أختر أمر:" expand="false" type="slide" />
+            <slidelink slideid="_player.5cqPoOlVj7m.5cCczTJI7hF" displaytext="4- لنشر ملف الأختبار بصيغة ملف تنفيذي أختر أمر:" expand="false" type="slide" />
+            <slidelink slideid="_player.5cqPoOlVj7m.6Y0GCDP8T0l" displaytext="صفحة الإختبار التحصيلي ومقياس الإتجاه البعديين" expand="false" type="slide" />
           </links>
         </slidelink>
       </links>
