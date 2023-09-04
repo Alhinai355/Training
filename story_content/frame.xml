@@ -13,7 +13,7 @@
         <options>
           <option name="title_enabled" value="true">
             <options>
-              <option name="title_text" value="برنامج التدريب الالكتروني القائم على الفيديو التفاعلي" />
+              <option name="title_text" value="برنامج التدريب الالكتروني لتنمية مهارات إنتاج المحتوى الرقمي لدى المعلمين" />
             </options>
           </option>
           <option name="logo_enabled" value="false">
@@ -1384,6 +1384,7 @@
             <slidelink slideid="_player.5t4cTk5KggO.6PVQoabdWbT" displaytext="الأهداف" expand="false" type="slide" />
             <slidelink slideid="_player.5t4cTk5KggO.65Nm0r4Nwb5" displaytext="النشاط الأول للموديول الثاني" expand="false" type="slide" />
             <slidelink slideid="_player.5t4cTk5KggO.62znYOtrv7W" displaytext="النشاط الثاني للموديول الثاني" expand="false" type="slide" />
+            <slidelink slideid="_player.5t4cTk5KggO.6MgFSoZnDpC" displaytext="النشاط الثاني للموديول الثاني" expand="false" type="slide" />
             <slidelink slideid="_player.5t4cTk5KggO.6T6YmEzOW6k" displaytext="الأهداف" expand="false" type="slide" />
             <slidelink slideid="_player.5t4cTk5KggO.6NuXq8oYe8H" displaytext="اللقاء الأول من الموديول الثاني" expand="false" type="slide" />
             <slidelink slideid="_player.5t4cTk5KggO.5lse68Bdogn" displaytext="اللقاء الثاني من الموديول الثاني" expand="false" type="slide" />
@@ -1400,6 +1401,7 @@
         <slidelink slideid="_player.5gdDS4ns6Lp" displaytext="الموديول الثالث" expand="true" type="slide">
           <links>
             <slidelink slideid="_player.5gdDS4ns6Lp.5ZtvGlnQDp2" displaytext="الموديول الثالث" expand="false" type="slide" />
+            <slidelink slideid="_player.5gdDS4ns6Lp.5kXpqY8wCWn" displaytext="النشاط الثاني للموديول الثاني" expand="false" type="slide" />
             <slidelink slideid="_player.5gdDS4ns6Lp.6YlsbMljDS6" displaytext="الموديول الثالث" expand="false" type="slide" />
             <slidelink slideid="_player.5gdDS4ns6Lp.6SV2ZRnUNqH" displaytext="1- يتطلب الدخول إلى وضع تعديل الصفحات الذهاب إلى أمر:" expand="false" type="slide" />
             <slidelink slideid="_player.5gdDS4ns6Lp.6036EOM7Ovk" displaytext="2- لتحديد صفحة معينة في المشروع نقوم بـــ:" expand="false" type="slide" />
@@ -1428,11 +1430,14 @@
             <slidelink slideid="_player.6dJGY0KPO75.5W661ajhw1P" displaytext="فيديو اللقاء الأول من الموديول الرابع" expand="false" type="slide" />
             <slidelink slideid="_player.6dJGY0KPO75.6FqoNgh66DY" displaytext="الأهداف" expand="false" type="slide" />
             <slidelink slideid="_player.6dJGY0KPO75.6F4ntRz8tYG" displaytext="فيديو اللقاء الثاني من الموديول الرابع" expand="false" type="slide" />
+            <slidelink slideid="_player.6dJGY0KPO75.5W400HiScq8" displaytext="النشاط الثاني للموديول الثاني" expand="false" type="slide" />
+            <slidelink slideid="_player.6dJGY0KPO75.63Th4KG9GU1" displaytext="النشاط الثاني للموديول الثاني" expand="false" type="slide" />
           </links>
         </slidelink>
         <slidelink slideid="_player.5wKIj5ngBWd" displaytext="الموديول الخامس" expand="true" type="slide">
           <links>
             <slidelink slideid="_player.5wKIj5ngBWd.5loMbOEVroI" displaytext="الموديول الخامس" expand="false" type="slide" />
+            <slidelink slideid="_player.5wKIj5ngBWd.5alUXNjipDT" displaytext="نشاط الموديول الخامس" expand="false" type="slide" />
             <slidelink slideid="_player.5wKIj5ngBWd.5f3ZDKuqfst" displaytext="الموديول الخامس" expand="false" type="slide" />
             <slidelink slideid="_player.5wKIj5ngBWd.6IkzcsW2DXX" displaytext="1- لعمل معاينة لمف الأختبار في برنامج Wonder share QuizCreator  أختر أمر:" expand="false" type="slide" />
             <slidelink slideid="_player.5wKIj5ngBWd.6IXsMmd0Lya" displaytext="2 – لحفظ ملف الأختبار بعد الأنتهاء ننقر على الأيقونة:" expand="false" type="slide" />
@@ -1520,8 +1525,8 @@
             <slidelink slideid="_player.6b5LelmfyvE.6582opvTdxg" displaytext="Hotspot" expand="false" type="slide" />
             <slidelink slideid="_player.6b5LelmfyvE.5uqvWVnKm25" displaytext="Hotspot" expand="false" type="slide" />
             <slidelink slideid="_player.6b5LelmfyvE.6SdLnDoM8o2" displaytext="Hotspot" expand="false" type="slide" />
-            <slidelink slideid="_player.6b5LelmfyvE.6bXCuK6XLRq" displaytext="Text Entry" expand="false" type="slide" />
             <slidelink slideid="_player.6b5LelmfyvE.6BPd39AtwBn" displaytext="Hotspot" expand="false" type="slide" />
+            <slidelink slideid="_player.6b5LelmfyvE.6jlDsI8ymns" displaytext="Hotspot" expand="false" type="slide" />
             <slidelink slideid="_player.6b5LelmfyvE.6oYREj9FZ82" displaytext="Hotspot" expand="false" type="slide" />
             <slidelink slideid="_player.6b5LelmfyvE.6C6b6y8IXOU" displaytext="Hotspot" expand="false" type="slide" />
             <slidelink slideid="_player.6b5LelmfyvE.6IA73BA3rPf" displaytext="Hotspot" expand="false" type="slide" />
